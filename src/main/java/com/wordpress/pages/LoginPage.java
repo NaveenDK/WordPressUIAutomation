@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * Created by Naveen on 9/8/2017.
  */
@@ -20,6 +22,7 @@ public class LoginPage
         System.setProperty("webdriver.chrome.driver","./src/main/resources/chromedriver.exe");//????????????????????/
         driver= new ChromeDriver();
         driver.navigate().to(url);
+
     }
 
 

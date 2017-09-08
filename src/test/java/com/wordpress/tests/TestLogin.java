@@ -2,6 +2,7 @@ package com.wordpress.tests;
 
 import com.wordpress.common.Constants;
 import com.wordpress.domain.Login;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -21,5 +22,9 @@ public class TestLogin {
     @Test
     public void testSuccessLogin(){
         login.login(Constants.USERNAME,Constants.PASSWORD);
+        Assert.assertEquals("","");
+
     }
+
+
 }

@@ -8,5 +8,5 @@ public class Constants {
     public static final String URL ="https://wordpress.com/log-in";
     public static final  String USERNAME="donnavinishere";
     public static final String PASSWORD="Donnavin123";
-
+    //public static final String EMAILRECOVERY="recover@email.com";
 }
