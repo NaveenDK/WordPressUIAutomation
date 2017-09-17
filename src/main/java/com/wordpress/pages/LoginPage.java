@@ -19,7 +19,7 @@ public class LoginPage
 
 
     public void loadPage(String url){
-        System.setProperty("webdriver.chrome.driver","src/main/resources/chromeDriverForLinux/chromedriver");//????????????????????/
+        System.setProperty("webdriver.chrome.driver","src/main/resources/chromedriver");//????????????????????/
         driver= new ChromeDriver();
         driver.navigate().to(url);
 
